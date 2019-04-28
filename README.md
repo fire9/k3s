@@ -36,6 +36,8 @@ Quick start
 2. Run server
 
 ```bash
+chmod +x k3s
+sudo mv k3s /usr/local/sbin/
 sudo k3s server &
 # Kubeconfig is written to /etc/rancher/k3s/k3s.yaml
 sudo k3s kubectl get node
